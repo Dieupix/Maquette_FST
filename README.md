@@ -1,1 +1,13 @@
-# Base_de_donnees
+# Maquette FST
+
+-----
+
+L'équipe
+  - BARRÈRE Manuel
+  - CHARRIER Mathis
+  - JANON Alexandre
+  - POMMIER Logan
+
+----
+
+Discord : ` #Dieupix0340 `

@@ -33,13 +33,12 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="tâche_0" meeting="false" start="2021-04-27" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="JANON Alexandre" function="SoftwareDevelopment:10" contacts="alexandre.janon@uha.fr" phone="0695152925"/>
         <resource id="1" name="BARRIÈRE Manuel" function="Default:1" contacts="manuel.barrere@uha.fr" phone="0646915680"/>
         <resource id="2" name="CHARRIER Mathis" function="SoftwareDevelopment:10" contacts="mathis.charrier@uha.fr" phone="0681718304"/>
-        <resource id="3" name="POMMIER Logan" function="SoftwareDevelopment:10" contacts="logan.pommier@uha.fr" phone=""/>
+        <resource id="3" name="POMMIER Logan" function="SoftwareDevelopment:10" contacts="logan.pommier@uha.fr" phone="0606910799"/>
     </resources>
     <allocations/>
     <vacations/>

@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projet de Gestion d'une Maquette pour la FST" company="" webLink="http://" view-date="2021-05-01" view-index="0" gantt-divider-location="345" resource-divider-location="300" version="2.8.11" locale="fr">
-    <description><![CDATA[Il s'agit de créer une base de données permettant l'affichage d'une maquette. De plus, il faut pouvoir afficher les MCC, les maquettes communes et fixes d'une licence donnée. Enfin, un étudiant donné doit pouvoir choisir des UE (ou des ECUE) parmi un choix limité dans notre base de données. Elle devra ensuite être affichée et être accessible. ]]></description>
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet de Gestion d'une Maquette pour la FST" company="" webLink="http://" view-date="2021-05-02" view-index="0" gantt-divider-location="345" resource-divider-location="300" version="3.0.3005" locale="fr_FR">
+    <description>
+        <![CDATA[Il s'agit de créer une base de données permettant l'affichage d'une maquette. De plus, il faut pouvoir afficher les MCC, les maquettes communes et fixes d'une licence donnée. Enfin, un étudiant donné doit pouvoir choisir des UE (ou des ECUE) parmi un choix limité dans notre base de données. Elle devra ensuite être affichée et être accessible. ]]>
+    </description>
     <view zooming-state="default:0" id="gantt-chart">
         <field id="tpd3" name="Nom" width="108" order="0"/>
         <field id="tpd4" name="Date de début" width="109" order="1"/>
-        <field id="tpd5" name="Date de fin" width="108" order="2"/>
-        <option id="taskLabelUp" value="resources"/>
-        <option id="taskLabelDown" value="advancement"/>
-        <option id="taskLabelLeft" value=""/>
-        <option id="color.recent"><![CDATA[#ffff00 #ccffff #cc3300 #6666ff #ff3366 #ff6666 #ff9900 #cc00ff #66ff33]]></option>
+        <field id="tpd5" name="Date de fin" width="109" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#ffff00 #ccffff #cc3300 #6666ff #ff3366 #ff6666 #ff9900 #cc00ff #66ff33]]>
+        </option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="0" name="Nom" width="209" order="0"/>
         <field id="1" name="Rôle par défaut" width="87" order="1"/>
     </view>
     <!-- -->
@@ -112,7 +113,7 @@
             <depend id="215" type="2" difference="3" hardness="Strong"/>
             <depend id="217" type="2" difference="4" hardness="Strong"/>
         </task>
-        <task id="171" name="PHASE 3 : Création de la BDD" color="#6666ff" meeting="false" start="2021-05-24" duration="14" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="false">
+        <task id="171" name="PHASE 3 : Création de la BDD" color="#6666ff" meeting="false" start="2021-05-24" duration="14" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
             <task id="173" name="TACHE 16 : Création des tables" color="#8cb6ce" meeting="false" start="2021-05-24" duration="4" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="175" type="2" difference="0" hardness="Strong"/>
                 <depend id="254" type="2" difference="0" hardness="Strong"/>
@@ -142,7 +143,7 @@
         <task id="213" name="Vérification de la BDD" color="#8cb6ce" meeting="false" start="2021-06-09" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
             <depend id="221" type="1" difference="3" hardness="Strong"/>
         </task>
-        <task id="179" name="PHASE 4 : Rédaction du rapport" color="#cc3300" meeting="false" start="2021-05-25" duration="20" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="false">
+        <task id="179" name="PHASE 4 : Rédaction du rapport" color="#cc3300" meeting="false" start="2021-05-25" duration="20" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
             <task id="215" name="TACHE 22 : Entête de couverture + Remerciements" color="#8cb6ce" meeting="false" start="2021-05-25" duration="1" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="224" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -173,7 +174,7 @@
             <depend id="237" type="2" difference="0" hardness="Strong"/>
             <depend id="245" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="232" name="PHASE 5 : Création du Diaporama" color="#ffff00" meeting="false" start="2021-06-19" duration="2" complete="0" thirdDate="2021-06-10" thirdDate-constraint="0" expand="false">
+        <task id="232" name="PHASE 5 : Création du Diaporama" color="#ffff00" meeting="false" start="2021-06-19" duration="2" complete="0" thirdDate="2021-06-10" thirdDate-constraint="0" expand="true">
             <task id="233" name="TACHE 30 : Introduction" color="#8cb6ce" meeting="false" start="2021-06-19" duration="1" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="239" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -193,10 +194,10 @@
         <task id="245" name="Jalon : Remise du rapport, soutenance orale" color="#ff3366" meeting="true" start="2021-06-23" duration="0" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" priority="2" expand="true"/>
     </tasks>
     <resources>
-        <resource id="0" name="BARRERE Manuel" function="Default:1" contacts="" phone="0646915680"/>
-        <resource id="3" name="CHARRIER Mathis" function="SoftwareDevelopment:2" contacts="" phone="0681718304"/>
-        <resource id="1" name="JANON Alexandre" function="SoftwareDevelopment:2" contacts="" phone="0695152925"/>
-        <resource id="2" name="POMMIER Logan" function="SoftwareDevelopment:2" contacts="" phone="0606910799"/>
+        <resource id="0" name="BARRERE Manuel" function="Default:1" contacts="manuel.barrere@uha.fr" phone="0646915680"/>
+        <resource id="3" name="CHARRIER Mathis" function="SoftwareDevelopment:2" contacts="mathis.charrier@uha.fr" phone="0681718304"/>
+        <resource id="1" name="JANON Alexandre" function="SoftwareDevelopment:2" contacts="alexandre.janon@uha.fr" phone="0695152925"/>
+        <resource id="2" name="POMMIER Logan" function="SoftwareDevelopment:2" contacts="logan.pommier@uha.fr" phone="0606910799"/>
     </resources>
     <allocations>
         <allocation task-id="85" resource-id="0" function="Default:1" responsible="true" load="100.0"/>

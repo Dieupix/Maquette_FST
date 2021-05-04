@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projet de Gestion d'une Maquette pour la FST" company="" webLink="http://" view-date="2021-05-02" view-index="0" gantt-divider-location="345" resource-divider-location="300" version="3.0.3005" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet de gestion des maquettes de la Faculté des Sciences et Techniques de Mulhouse" company="Université de Haute Alsace" webLink="https://github.com/Dieupix/Maquette_FST" view-date="2021-05-02" view-index="0" gantt-divider-location="345" resource-divider-location="232" version="3.0.3005" locale="fr_FR">
     <description>
         <![CDATA[Il s'agit de créer une base de données permettant l'affichage d'une maquette. De plus, il faut pouvoir afficher les MCC, les maquettes communes et fixes d'une licence donnée. Enfin, un étudiant donné doit pouvoir choisir des UE (ou des ECUE) parmi un choix limité dans notre base de données. Elle devra ensuite être affichée et être accessible. ]]>
     </description>
-    <view zooming-state="default:0" id="gantt-chart">
+    <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd3" name="Nom" width="108" order="0"/>
         <field id="tpd4" name="Date de début" width="109" order="1"/>
         <field id="tpd5" name="Date de fin" width="109" order="2"/>
@@ -11,7 +11,7 @@
         </option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="209" order="0"/>
+        <field id="0" name="Nom" width="126" order="0"/>
         <field id="1" name="Rôle par défaut" width="87" order="1"/>
     </view>
     <!-- -->
@@ -194,7 +194,7 @@
         <task id="245" name="Jalon : Remise du rapport, soutenance orale" color="#ff3366" meeting="true" start="2021-06-23" duration="0" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" priority="2" expand="true"/>
     </tasks>
     <resources>
-        <resource id="0" name="BARRERE Manuel" function="Default:1" contacts="manuel.barrere@uha.fr" phone="0646915680"/>
+        <resource id="0" name="BARRÈRE Manuel" function="Default:1" contacts="manuel.barrere@uha.fr" phone="0646915680"/>
         <resource id="3" name="CHARRIER Mathis" function="SoftwareDevelopment:2" contacts="mathis.charrier@uha.fr" phone="0681718304"/>
         <resource id="1" name="JANON Alexandre" function="SoftwareDevelopment:2" contacts="alexandre.janon@uha.fr" phone="0695152925"/>
         <resource id="2" name="POMMIER Logan" function="SoftwareDevelopment:2" contacts="logan.pommier@uha.fr" phone="0606910799"/>

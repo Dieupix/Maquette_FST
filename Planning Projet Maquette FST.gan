@@ -1,16 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projet de gestion des maquettes de la Faculté des Sciences et Techniques de Mulhouse" company="Université de Haute Alsace" webLink="https://github.com/Dieupix/Maquette_FST" view-date="2021-04-28" view-index="0" gantt-divider-location="284" resource-divider-location="353" version="2.8.11" locale="fr">
-    <description><![CDATA[Il s'agit de créer une base de données permettant l'affichage d'une maquette. De plus, il faut pouvoir afficher les MCC, les maquettes communes et fixes d'une licence donnée. Enfin, un étudiant donné doit pouvoir choisir des UE (ou des ECUE) parmi un choix limité dans notre base de données. Elle devra ensuite être affichée et être accessible. ]]></description>
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet de gestion des maquettes de la Faculté des Sciences et Techniques de Mulhouse" company="Université de Haute Alsace" webLink="https://github.com/Dieupix/Maquette_FST" view-date="2021-04-28" view-index="0" gantt-divider-location="284" resource-divider-location="353" version="3.0.3005" locale="fr_FR">
+    <description>
+        <![CDATA[Il s'agit de créer une base de données permettant l'affichage d'une maquette. De plus, il faut pouvoir afficher les MCC, les maquettes communes et fixes d'une licence donnée. Enfin, un étudiant donné doit pouvoir choisir des UE (ou des ECUE) parmi un choix limité dans notre base de données. Elle devra ensuite être affichée et être accessible. ]]>
+    </description>
     <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd3" name="Nom" width="164" order="0"/>
         <field id="tpd4" name="Date de début" width="53" order="1"/>
-        <field id="tpd5" name="Date de fin" width="47" order="2"/>
-        <option id="taskLabelUp" value="resources"/>
-        <option id="taskLabelDown" value="advancement"/>
-        <option id="taskLabelLeft" value=""/>
-        <option id="color.recent"><![CDATA[#ffff00 #ccffff #cc3300 #6666ff #ff3366 #ff6666 #ff9900 #cc00ff #66ff33]]></option>
+        <field id="tpd5" name="Date de fin" width="48" order="2"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value="resources"/>
+        <option id="taskLabelLeft" value="length"/>
+        <option id="taskLabelRight" value="advancement"/>
+        <option id="color.recent">
+            <![CDATA[#ffff00 #ccffff #cc3300 #6666ff #ff3366 #ff6666 #ff9900 #cc00ff #66ff33]]>
+        </option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="267" order="0"/>
+        <field id="0" name="Nom" width="266" order="0"/>
         <field id="1" name="Rôle par défaut" width="83" order="1"/>
     </view>
     <!-- -->
@@ -89,11 +94,11 @@
                 <depend id="81" type="2" difference="0" hardness="Strong"/>
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="81" name="TACHE 12 : Rédaction du 3.c.d.e.f." color="#8cb6ce" meeting="false" start="2021-05-13" duration="1" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="81" name="TACHE 11 : Rédaction du 3.c.d.e.f." color="#8cb6ce" meeting="false" start="2021-05-13" duration="1" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="82" type="2" difference="0" hardness="Strong"/>
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="45" name="TACHE 11 : Rédaction du 3.b." color="#8cb6ce" meeting="false" start="2021-05-13" duration="2" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="45" name="TACHE 12 : Rédaction du 3.b." color="#8cb6ce" meeting="false" start="2021-05-13" duration="2" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="82" type="2" difference="0" hardness="Strong"/>
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -146,10 +151,10 @@
             <task id="217" name="TACHE 23 : Introduction" color="#8cb6ce" meeting="false" start="2021-05-26" duration="1" complete="100" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="224" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="219" name="TACHE 25 : Structure MCD-MLD commenté" color="#8cb6ce" meeting="false" start="2021-05-31" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+            <task id="219" name="TACHE 24 : Structure MCD-MLD commenté" color="#8cb6ce" meeting="false" start="2021-05-31" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="224" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="218" name="TACHE 24 : Répartition du travail et planning" color="#8cb6ce" meeting="false" start="2021-06-02" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+            <task id="218" name="TACHE 25 : Répartition du travail et planning" color="#8cb6ce" meeting="false" start="2021-06-02" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="224" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="221" name="TACHE 26 : Réalisation" color="#8cb6ce" meeting="false" start="2021-06-12" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
@@ -177,13 +182,13 @@
             <task id="233" name="TACHE 30 : Introduction" color="#8cb6ce" meeting="false" start="2021-06-19" duration="1" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="239" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="237" name="TACHE 33 : Conclusion + Remerciements" color="#8cb6ce" meeting="false" start="2021-06-19" duration="1" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+            <task id="237" name="TACHE 31 : Conclusion + Remerciements" color="#8cb6ce" meeting="false" start="2021-06-19" duration="1" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="239" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="235" name="TACHE 31 : MCD-MLD (&lt;21/05/2021)" color="#8cb6ce" meeting="false" start="2021-06-19" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+            <task id="235" name="TACHE 32 : MCD-MLD (&lt;21/05/2021)" color="#8cb6ce" meeting="false" start="2021-06-19" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="239" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="236" name="TACHE 32 : BDD (&gt;21/05/2021)" color="#8cb6ce" meeting="false" start="2021-06-19" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+            <task id="236" name="TACHE 33 : BDD (&gt;21/05/2021)" color="#8cb6ce" meeting="false" start="2021-06-19" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="239" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>

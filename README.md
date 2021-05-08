@@ -8,10 +8,10 @@
 
 ## Le projet
 
-Ce projet consiste à créer une base de données permettant la gestion de maquettes afin de simplifier le MCC (Mécanisme de Contrôle des Connaissances).
-La FST, représentée par monsieur ADAM Bruno, veille à ce que les différents objectifs soient respectés.
-BARRÈRE Manuel a été nommé responsable du projet.
-Monsieur LEPAGNOT Julien épaule monsieur ADAM pour l'évaluation de notre projet.
+Ce projet consiste à créer une base de données permettant la gestion de maquettes afin de simplifier et de permettre aux différents élèves de la faculté, de mieux comprendre le MCC (Mécanisme de Contrôle des Connaissances) en fonction de leur parcours.\
+La FST, représentée par monsieur ADAM Bruno, veille à ce que les différents objectifs soient respectés.\
+BARRÈRE Manuel a été nommé responsable du projet.\
+Monsieur LEPAGNOT Julien épaule monsieur ADAM pour l'évaluation de notre projet.\
 
 ## Structure du projet
 

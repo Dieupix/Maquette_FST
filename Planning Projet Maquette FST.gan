@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projet de gestion des maquettes de la Faculté des Sciences et Techniques de Mulhouse" company="Université de Haute Alsace" webLink="https://github.com/Dieupix/Maquette_FST" view-date="2021-04-28" view-index="0" gantt-divider-location="284" resource-divider-location="353" version="2.8.11" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet de gestion des maquettes de la Faculté des Sciences et Techniques de Mulhouse" company="Université de Haute Alsace" webLink="https://github.com/Dieupix/Maquette_FST" view-date="2021-05-01" view-index="1" gantt-divider-location="284" resource-divider-location="320" version="2.8.11" locale="fr">
     <description><![CDATA[Il s'agit de créer une base de données permettant l'affichage d'une maquette. De plus, il faut pouvoir afficher les MCC, les maquettes communes et fixes d'une licence donnée. Enfin, un étudiant donné doit pouvoir choisir des UE (ou des ECUE) parmi un choix limité dans notre base de données. Elle devra ensuite être affichée et être accessible. ]]></description>
     <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd3" name="Nom" width="163" order="0"/>
@@ -10,8 +10,8 @@
         <option id="color.recent"><![CDATA[#ffff00 #ccffff #cc3300 #6666ff #ff3366 #ff6666 #ff9900 #cc00ff #66ff33]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="266" order="0"/>
-        <field id="1" name="Rôle par défaut" width="84" order="1"/>
+        <field id="0" name="Nom" width="235" order="0"/>
+        <field id="1" name="Rôle par défaut" width="82" order="1"/>
     </view>
     <!-- -->
     <calendars base-id="Aucun">
@@ -40,64 +40,67 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="101" name="Jalon : Début du projet" color="#ff3366" meeting="true" start="2021-05-03" duration="0" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="101" name="Jalon : Début du projet" color="#ff3366" meeting="true" start="2021-05-01" duration="0" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" priority="2" expand="true">
             <depend id="85" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="85" name="TACHE 0 : Détermination des limites et des tâches" color="#ff3366" meeting="false" start="2021-05-03" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="85" name="PHASE 0 : Détermination des limites et des tâches" color="#ff3366" meeting="false" start="2021-05-01" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="322" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="322" name="PHASE 0bis CREATION DIAGRAMME DE GANTT" color="#8cb6ce" meeting="false" start="2021-05-03" duration="2" complete="100" thirdDate="2021-05-25" thirdDate-constraint="0" expand="true">
             <depend id="0" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="0" name="Jalon : Attribution des tâches" color="#ff3366" meeting="true" start="2021-05-04" duration="0" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" priority="2" expand="true">
+        <task id="0" name="Jalon : Attribution des tâches" color="#ff3366" meeting="true" start="2021-05-05" duration="0" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" priority="2" expand="true">
             <depend id="2" type="2" difference="1" hardness="Strong"/>
             <depend id="71" type="2" difference="1" hardness="Strong"/>
             <depend id="73" type="2" difference="1" hardness="Strong"/>
         </task>
-        <task id="279" name="PHASE 1 : Création du MCD-MLD" meeting="false" start="2021-05-05" duration="6" complete="76" expand="true">
-            <task id="2" name="TACHE 1 : Liste des Propriétés" color="#8cb6ce" meeting="false" start="2021-05-05" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+        <task id="279" name="PHASE 1 : Création du MCD-MLD" meeting="false" start="2021-05-08" duration="7" complete="63" expand="true">
+            <task id="2" name="TACHE 1 : Liste des Propriétés" color="#8cb6ce" meeting="false" start="2021-05-08" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="15" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="15" name="TACHE 2 : Entités" color="#8cb6ce" meeting="false" start="2021-05-08" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="15" name="TACHE 2 : Entités" color="#8cb6ce" meeting="false" start="2021-05-10" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="23" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="23" name="TACHE 3 : Associations" color="#8cb6ce" meeting="false" start="2021-05-10" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="23" name="TACHE 3 : Associations" color="#8cb6ce" meeting="false" start="2021-05-11" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="33" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="33" name="TACHE 4 : Cardinalités" color="#8cb6ce" meeting="false" start="2021-05-11" duration="1" complete="80" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="33" name="TACHE 4 : Cardinalités" color="#8cb6ce" meeting="false" start="2021-05-12" duration="1" complete="80" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="39" type="2" difference="1" hardness="Strong"/>
             </task>
-            <task id="39" name="TACHE 5 : Traduction en MLD" color="#8cb6ce" meeting="false" start="2021-05-13" duration="1" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="39" name="TACHE 5 : Traduction en MLD" color="#8cb6ce" meeting="false" start="2021-05-14" duration="2" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="150" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="281" name="PHASE 2 : Rédaction du CDC" color="#8cb6ce" meeting="false" start="2021-05-05" duration="11" complete="41" thirdDate="2021-04-19" thirdDate-constraint="0" expand="true">
-            <task id="71" name="TACHE 6 : Page de Couverture" color="#8cb6ce" meeting="false" start="2021-05-05" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+        <task id="281" name="PHASE 2 : Rédaction du CDC" color="#8cb6ce" meeting="false" start="2021-05-08" duration="10" complete="44" thirdDate="2021-04-19" thirdDate-constraint="0" expand="true">
+            <task id="71" name="TACHE 6 : Page de Couverture" color="#8cb6ce" meeting="false" start="2021-05-08" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="75" type="2" difference="0" hardness="Strong"/>
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="73" name="TACHE 7 : Rédaction du 1. sauf c." color="#8cb6ce" meeting="false" start="2021-05-05" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="73" name="TACHE 7 : Rédaction du 1. sauf c." color="#8cb6ce" meeting="false" start="2021-05-08" duration="1" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="75" name="TACHE 8 : Rédaction du 1.c. (Diagramme GANTT)" color="#8cb6ce" meeting="false" start="2021-05-08" duration="2" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="75" name="TACHE 8 : Rédaction du 1.c. (Diagramme GANTT)" color="#8cb6ce" meeting="false" start="2021-05-10" duration="2" complete="100" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="77" type="2" difference="0" hardness="Strong"/>
                 <depend id="79" type="2" difference="0" hardness="Strong"/>
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="77" name="TACHE 9 : Rédaction du 2." color="#8cb6ce" meeting="false" start="2021-05-11" duration="1" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="77" name="TACHE 9 : Rédaction du 2." color="#8cb6ce" meeting="false" start="2021-05-12" duration="1" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="79" name="TACHE 10 : Rédaction du 3.a." color="#8cb6ce" meeting="false" start="2021-05-11" duration="2" complete="90" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="79" name="TACHE 10 : Rédaction du 3.a." color="#8cb6ce" meeting="false" start="2021-05-12" duration="2" complete="90" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="45" type="2" difference="0" hardness="Strong"/>
                 <depend id="81" type="2" difference="0" hardness="Strong"/>
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="81" name="TACHE 11 : Rédaction du 3.c.d.e.f." color="#8cb6ce" meeting="false" start="2021-05-13" duration="1" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="81" name="TACHE 11 : Rédaction du 3.c.d.e.f." color="#8cb6ce" meeting="false" start="2021-05-14" duration="1" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="82" type="2" difference="0" hardness="Strong"/>
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="45" name="TACHE 12 : Rédaction du 3.b." color="#8cb6ce" meeting="false" start="2021-05-13" duration="2" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="45" name="TACHE 12 : Rédaction du 3.b." color="#8cb6ce" meeting="false" start="2021-05-14" duration="2" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="82" type="2" difference="0" hardness="Strong"/>
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="82" name="TACHE 13 : Rédaction du 4. 5. 6. 7." color="#8cb6ce" meeting="false" start="2021-05-15" duration="2" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
+            <task id="82" name="TACHE 13 : Rédaction du 4. 5. 6. 7." color="#8cb6ce" meeting="false" start="2021-05-17" duration="1" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
                 <depend id="83" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="83" name="TACHE 14 : Rédaction du Sommaire + Annexes+ MEF" color="#8cb6ce" meeting="false" start="2021-05-18" duration="1" complete="0" thirdDate="2021-04-27" thirdDate-constraint="0" expand="true">
@@ -121,16 +124,16 @@
                 <depend id="176" type="2" difference="0" hardness="Strong"/>
                 <depend id="187" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="254" name="TACHE 18 : Importation à préparer" color="#8cb6ce" meeting="false" start="2021-05-28" duration="4" complete="0" thirdDate="2021-05-20" thirdDate-constraint="0" expand="true">
+            <task id="254" name="TACHE 18 : Importation à préparer" color="#8cb6ce" meeting="false" start="2021-05-28" duration="3" complete="0" thirdDate="2021-05-20" thirdDate-constraint="0" expand="true">
                 <depend id="187" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="176" name="TACHE 19 : Mise en place de listes déroulantes" color="#8cb6ce" meeting="false" start="2021-05-29" duration="1" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="187" type="2" difference="0" hardness="Strong"/>
                 <depend id="219" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="187" name="Jalon : Vérifiaction avec des données et Importation" color="#ff3366" meeting="true" start="2021-06-02" duration="0" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" priority="2" expand="true">
-                <depend id="177" type="2" difference="0" hardness="Strong"/>
-                <depend id="218" type="2" difference="0" hardness="Strong"/>
+            <task id="187" name="Jalon : Vérifiaction avec des données et Importation" color="#ff3366" meeting="true" start="2021-06-01" duration="0" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="177" type="2" difference="1" hardness="Strong"/>
+                <depend id="218" type="2" difference="4" hardness="Strong"/>
             </task>
             <task id="177" name="TACHE 20 : Mise en place des reqûetes" color="#8cb6ce" meeting="false" start="2021-06-02" duration="3" complete="0" thirdDate="2021-06-02" thirdDate-constraint="0" expand="true">
                 <depend id="178" type="2" difference="0" hardness="Strong"/>
@@ -149,7 +152,7 @@
             <task id="219" name="TACHE 24 : Structure MCD-MLD commenté" color="#8cb6ce" meeting="false" start="2021-05-31" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="224" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="218" name="TACHE 25 : Répartition du travail et planning" color="#8cb6ce" meeting="false" start="2021-06-02" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+            <task id="218" name="TACHE 25 : Répartition du travail et planning" color="#8cb6ce" meeting="false" start="2021-06-05" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="224" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="221" name="TACHE 26 : Réalisation" color="#8cb6ce" meeting="false" start="2021-06-12" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
@@ -200,6 +203,7 @@
     </resources>
     <allocations>
         <allocation task-id="85" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="322" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="15" resource-id="0" function="Default:1" responsible="true" load="50.0"/>
@@ -219,12 +223,14 @@
         <allocation task-id="239" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="85" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="0" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
-        <allocation task-id="73" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="15" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
-        <allocation task-id="39" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
-        <allocation task-id="45" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="39" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="50.0"/>
+        <allocation task-id="73" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="50.0"/>
         <allocation task-id="84" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="254" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="187" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="177" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="213" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="217" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="218" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
@@ -239,9 +245,11 @@
         <allocation task-id="75" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="50.0"/>
         <allocation task-id="77" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="82" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="83" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="84" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="173" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="176" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="187" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="177" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="178" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="213" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
@@ -249,12 +257,11 @@
         <allocation task-id="224" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="236" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="239" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
-        <allocation task-id="83" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="85" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="0" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
-        <allocation task-id="71" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="23" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="33" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="71" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="81" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="83" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="84" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>

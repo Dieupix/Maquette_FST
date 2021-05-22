@@ -35,8 +35,20 @@ Maquette FST
 |   ├── Requête 1
 |   └── Requête 2
 └── Tables
-    ├── Table 1
-    └── Table 2
+    ├── BLOCS
+    ├── CHAMPS
+    ├── coïncide bloc
+    ├── correspond bloc
+    ├── ÉTUDIANTS
+    ├── FACULTÉS
+    ├── FORMATIONS
+    ├── se situe
+    ├── SEMESTRES
+    ├── SEMESTRES-FORMATIONS
+    ├── SEMESTRES-FORMATIONS-BLOCS
+    ├── SEMESTRES-FORMATIONS-ÉTUDIANTS
+    ├── SEMESTRES-TDC
+    └── TYPES DE CONTRÔLES
 ```
 
 <a id="user-content-contributions" class="anchor" href="#contributions" aria-hidden="true"> </a>
@@ -56,6 +68,10 @@ L'équipe du MOE :
 | CHARRIER Mathis   | Développeur           |
 | JANON Alexandre   | Développeur           |
 | POMMIER Logan     | Développeur           |
+
+Merci à [shields.io](https://shields.io) pour les badges.
+
+Merci à [LucidChart](https://www.lucidchart.com) pour la création du schéma de navigation.
 
 ---
 

@@ -17,12 +17,12 @@
 
 ## Le projet
 
-Ce projet consiste à créer une base de données concernant la gestion de maquettes afin de simplifier et de permettre aux différents élèves de chaque institut de l'université, de mieux comprendre le MCC (Mécanisme de Contrôle des Connaissances) en fonction de leur parcours.\
-\
-Le maître d'ouvrage (MOA) n'est autre que la FST, représentée par monsieur ADAM Bruno.\
-\
-Monsieur LEPAGNOT Julien, du comité de pilotage, épaule monsieur ADAM pour l'évaluation de notre projet.\
-\
+Ce projet consiste à créer une base de données concernant la gestion de maquettes afin de simplifier et de permettre aux différents élèves de chaque institut de l'université, de mieux comprendre le MCC (Mécanisme de Contrôle des Connaissances) en fonction de leur parcours.
+
+Le maître d'ouvrage (MOA) n'est autre que la FST, représentée par monsieur ADAM Bruno.
+
+Monsieur LEPAGNOT Julien, du comité de pilotage, épaule monsieur ADAM pour l'évaluation de notre projet.
+
 BARRÈRE Manuel a été nommé responsable du projet, et forme avec CHARRIRE Mathis, JANON Alexandre ainsi que POMMIER Logan la maîtrise d'oeuvre (MOE).
 
 <a id="user-content-structure" class="anchor" href="#structure" aria-hidden="true"> </a>
@@ -35,20 +35,38 @@ Maquette FST
 |   ├── Requête 1
 |   └── Requête 2
 └── Tables
+    ├── appartient
     ├── BLOCS
     ├── CHAMPS
+    ├── choisit ECUE
+    ├── choisit UE
     ├── coïncide bloc
+    ├── coïncide UE
     ├── correspond bloc
+    ├── correspond UE
+    ├── ECUE
     ├── ÉTUDIANTS
     ├── FACULTÉS
     ├── FORMATIONS
+    ├── GROUPES ECUE
+    ├── GROUPES UE
+    ├── HEURES
+    ├── peut se composer
+    ├── s'applique ECUE
+    ├── s'applique H-ECUE
+    ├── s'applique H-UE
+    ├── s'applique UE
     ├── se situe
     ├── SEMESTRES
     ├── SEMESTRES-FORMATIONS
     ├── SEMESTRES-FORMATIONS-BLOCS
+    ├── SEMESTRES-FORMATIONS-ECUE
     ├── SEMESTRES-FORMATIONS-ÉTUDIANTS
+    ├── SEMESTRES-FORMATIONS-UE
+    ├── SEMESTRES-HEURES
     ├── SEMESTRES-TDC
-    └── TYPES DE CONTRÔLES
+    ├── TYPES DE CONTRÔLES
+    └── UE
 ```
 
 <a id="user-content-contributions" class="anchor" href="#contributions" aria-hidden="true"> </a>
@@ -69,9 +87,14 @@ L'équipe du MOE :
 | JANON Alexandre   | Développeur           |
 | POMMIER Logan     | Développeur           |
 
-Merci à [shields.io](https://shields.io) pour les badges.
+Merci à [Discord](https://discord.com) et [Webex](https://www.webex.com) pour la communication au sein du groupe.\
+Merci à [GanttProject](https://www.ganttproject.biz) pour son application GanttProject.\
+Merci à [Google](https://google.com) pour ses applications telles que Doc, Drive, etc.\
+Merci à [LucidChart](https://www.lucidchart.com) de nous avoir permis de créer le schéma de navigation.\
+Merci à [Microsoft](https://microsoft.com) pour son application Microsoft Access.\
+Merci à [shields.io](https://shields.io) pour la création des badges.
 
-Merci à [LucidChart](https://www.lucidchart.com) pour la création du schéma de navigation.
+Un grand merci à [GitHub](https://github.com) pour l'hébergement du projet.
 
 ---
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projet de gestion des maquettes de la Faculté des Sciences et Techniques de Mulhouse" company="Université de Haute Alsace" webLink="https://github.com/Dieupix/Maquette_FST" view-date="2021-05-17" view-index="1" gantt-divider-location="408" resource-divider-location="320" version="2.8.11" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet de gestion des maquettes de la Faculté des Sciences et Techniques de Mulhouse" company="Université de Haute Alsace" webLink="https://github.com/Dieupix/Maquette_FST" view-date="2021-05-17" view-index="0" gantt-divider-location="408" resource-divider-location="320" version="2.8.11" locale="fr">
     <description><![CDATA[Il s'agit de créer une base de données permettant l'affichage d'une maquette. De plus, il faut pouvoir afficher les MCC, les maquettes communes et fixes d'une licence donnée. Enfin, un étudiant donné doit pouvoir choisir des UE (ou des ECUE) parmi un choix limité dans notre base de données. Elle devra ensuite être affichée et être accessible. ]]></description>
     <view zooming-state="default:4" id="gantt-chart">
         <field id="tpd3" name="Nom" width="129" order="0"/>
@@ -115,8 +115,8 @@
             <depend id="215" type="2" difference="0" hardness="Strong"/>
             <depend id="217" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="171" name="PHASE 3 : Création de la BDD" color="#6666ff" meeting="false" start="2021-05-20" duration="14" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
-            <task id="173" name="TACHE 16 : Création des tables" color="#8cb6ce" meeting="false" start="2021-05-20" duration="4" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+        <task id="171" name="PHASE 3 : Création de la BDD" color="#6666ff" meeting="false" start="2021-05-20" duration="14" complete="25" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+            <task id="173" name="TACHE 16 : Création des tables" color="#8cb6ce" meeting="false" start="2021-05-20" duration="4" complete="100" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="175" type="2" difference="0" hardness="Strong"/>
                 <depend id="254" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -145,11 +145,11 @@
         <task id="213" name="Vérification de la BDD" color="#8cb6ce" meeting="false" start="2021-06-07" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
             <depend id="221" type="1" difference="0" hardness="Strong"/>
         </task>
-        <task id="179" name="PHASE 4 : Rédaction du rapport" color="#cc3300" meeting="false" start="2021-05-20" duration="18" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
-            <task id="215" name="TACHE 22 : Entête de Couverture + Remerciements" color="#8cb6ce" meeting="false" start="2021-05-20" duration="1" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+        <task id="179" name="PHASE 4 : Rédaction du rapport" color="#cc3300" meeting="false" start="2021-05-20" duration="18" complete="16" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+            <task id="215" name="TACHE 22 : Entête de Couverture + Remerciements" color="#8cb6ce" meeting="false" start="2021-05-20" duration="1" complete="100" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="224" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="217" name="TACHE 23 : Introduction" color="#8cb6ce" meeting="false" start="2021-05-20" duration="1" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
+            <task id="217" name="TACHE 23 : Introduction" color="#8cb6ce" meeting="false" start="2021-05-20" duration="1" complete="50" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">
                 <depend id="224" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="219" name="TACHE 24 : Structure MCD-MLD commenté" color="#8cb6ce" meeting="false" start="2021-05-28" duration="2" complete="0" thirdDate="2021-04-30" thirdDate-constraint="0" expand="true">

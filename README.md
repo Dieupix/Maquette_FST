@@ -41,8 +41,10 @@ Maquette FST
     ├── choisit ECUE
     ├── choisit UE
     ├── coïncide bloc
+    ├── coïncide ECUE
     ├── coïncide UE
     ├── correspond bloc
+    ├── correspond Remarque
     ├── correspond UE
     ├── ECUE
     ├── ÉTUDIANTS

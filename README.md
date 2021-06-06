@@ -31,9 +31,12 @@ BARRÈRE Manuel a été nommé responsable du projet, et forme avec CHARRIRE Mat
 ```
 Maquette FST
 ├── Formulaires
+|   ├── Formulaire 1
+|   └── Formulaire 2
 ├── Requêtes
-|   ├── Requête 1
-|   └── Requête 2
+|   ├── Liste des blocs de compétences déjà présents dans la maquette
+|   ├── Liste des TDC déjà présents dans l'UE
+|   └── Liste des TDH déjà présents dans l'ECUE
 └── Tables
     ├── appartient
     ├── BLOCS
